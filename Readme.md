@@ -1,29 +1,18 @@
-
-## 🔍 Usage
+## Usage
 
 1. Enter your gross salary
-2. Select any applicable deductions or benefits
-3. Click "Calculate" to see your net salary breakdown
-4. View detailed information about all deductions
+2. Click calculate
+3. View your net salary and deductions
 
-## 🤝 Contributing
+## Development
 
-Contributions are always welcome! Here's how you can help:
+To run the project in development mode:
 
-1. Fork the project
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+1. Make sure you have Node.js installed (version 14 or higher)
+2. Run `npm install` to install dependencies
+3. Run `npm run dev` to start the development server
+4. Open `http://localhost:5173` in your browser
 
-## 📝 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 📧 Contact
-
-If you have any questions or suggestions, please open an issue or contact the maintainers.
 
 ---
-
-Made with ❤️ for the Turkish developer community
+Built with React.js
