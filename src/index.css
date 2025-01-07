@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&family=Roboto+Condensed:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+  background: #242424;
+  color: #e5e5e5;
+}
+
+#header {
+  text-align: center;
+  margin: 3rem auto;
+}
+
+#header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+#header p {
+  color: #8e8e8e;
+  font-size: 1.2rem;
+}
+
+#user-input {
+  padding: 1rem;
+  max-width: 40rem;
+  margin: 2rem auto;
+  border-radius: 8px;
+  background: #313131;
+}
+
+.input-group {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.input-group p {
+  flex: 1;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+  color: #8e8e8e;
+}
+
+input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #76767677;
+  border-radius: 4px;
+  background: #1c1c1c;
+  color: #e5e5e5;
+  font-size: 1rem;
+}
+
+input[type="checkbox"] {
+  width: auto;
+  margin-top: 0.5rem;
+}
+
+#result {
+  max-width: 50rem;
+  margin: 2rem auto;
+  padding: 1rem;
+  table-layout: fixed;
+  border-spacing: 1rem;
+  text-align: right;
+}
+
+#result thead {
+  font-size: 0.7rem;
+  color: #8e8e8e;
+}
+
+#result tbody {
+  font-family: monospace;
+  font-size: 0.85rem;
+}
+
+.net-salary {
+  border-top: 1px solid #76767677;
+  font-size: 1rem;
+}
+
+.net-salary td {
+  padding-top: 1rem;
+}
+
+.results-container {
+  max-width: 90%;
+  margin: 2rem auto;
+  overflow-x: auto;
+}
+
+.results-container h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #e5e5e5;
+}
+
+#result {
+  width: 100%;
+  border-collapse: collapse;
+  background: #313131;
+  border-radius: 8px;
+}
+
+#result th,
+#result td {
+  padding: 0.75rem;
+  text-align: right;
+  border-bottom: 1px solid #444;
+}
+
+#result th {
+  background: #242424;
+  font-weight: 600;
+  text-align: center;
+}
+
+#result td:first-child {
+  text-align: left;
+}
+
+.net-amount {
+  font-weight: bold;
+  color: #4CAF50;
+}
+
+@media (max-width: 768px) {
+  .results-container {
+    max-width: 100%;
+    margin: 1rem;
+  }
+  
+  #result th,
+  #result td {
+    padding: 0.5rem;
+    font-size: 0.85rem;
+  }
+}
+
+.salary-input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #76767677;
+  border-radius: 4px;
+  background: #1c1c1c;
+  color: #e5e5e5;
+  font-size: 1rem;
+  text-align: left;
+}
+
+.salary-input:focus {
+  outline: none;
+  border-color: #4CAF50;
+}
+
+.header-image {
+  max-width: 200px;
+  height: auto;
+  margin: 0 auto 2rem;
+  display: block;
+}
